@@ -1,0 +1,517 @@
+Request method:	GET
+Request URI:	https://api.themoviedb.org/3/account/21042953
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	account_id=21042953
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+x-memc: MISS
+x-memc-key: e3cf054f718c1ebf415855c905d6509c
+x-memc-age: 0
+x-memc-expires: 0
+Content-Encoding: gzip
+Date: Sat, 18 May 2024 08:35:17 GMT
+Cache-Control: public, max-age=0
+ETag: W/"3b97347c6e03ee30a6e3cc80ee3bcdef"
+Vary: accept-encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 cc97084c265955c2a237794faaa363dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: XNiEmXUmeDsnvT1_PMODJHuEbRi8aXQlNGsICVcR_0OkzJZboVHXOg==
+Vary: Origin
+
+{
+    "avatar": {
+        "gravatar": {
+            "hash": "a6fcfd476abc10ac1a45b1acc6c35bb9"
+        },
+        "tmdb": {
+            "avatar_path": null
+        }
+    },
+    "id": 21042953,
+    "iso_639_1": "pl",
+    "iso_3166_1": "PL",
+    "name": "",
+    "include_adult": false,
+    "username": "mk90"
+}
+Request method:	GET
+Request URI:	https://api.themoviedb.org/3/account/21042953/favorite/movies?language=en-US&page=1&sort-by=created_at.desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	language=en-US
+				page=1
+				sort-by=created_at.desc
+Form params:	<none>
+Path params:	account_id=21042953
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+x-memc: MISS
+x-memc-key: 9f7ea1f00949df8d235d04aaea6d6ed2
+x-memc-age: 0
+x-memc-expires: 0
+Content-Encoding: gzip
+Date: Sat, 18 May 2024 08:35:17 GMT
+Cache-Control: public, max-age=0
+ETag: W/"17332cdd0ee23cdd513ab847e2609442"
+Vary: accept-encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 54bffa1ff461e3a94ff195ca7a565c94.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: yTNH4ua4TJq0WK-qvxRDjhYBYjDSIuxk9bvXXLU-hVLmpTnYS5rnKQ==
+Vary: Origin
+
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/4woSOUD0equAYzvwhWBHIJDCM88.jpg",
+            "genre_ids": [
+                28,
+                27,
+                53
+            ],
+            "id": 1096197,
+            "original_language": "en",
+            "original_title": "No Way Up",
+            "overview": "Characters from different backgrounds are thrown together when the plane they're travelling on crashes into the Pacific Ocean. A nightmare fight for survival ensues with the air supply running out and dangers creeping in from all sides.",
+            "popularity": 710.012,
+            "poster_path": "/hu40Uxp9WtpL34jv3zyWLb5zEVY.jpg",
+            "release_date": "2024-01-18",
+            "title": "No Way Up",
+            "video": false,
+            "vote_average": 6.431,
+            "vote_count": 657
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 550,
+            "original_language": "en",
+            "original_title": "Fight Club",
+            "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+            "popularity": 257.598,
+            "poster_path": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+            "release_date": "1999-10-15",
+            "title": "Fight Club",
+            "video": false,
+            "vote_average": 8.441,
+            "vote_count": 28525
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                
+            ],
+            "id": 577764,
+            "original_language": "en",
+            "original_title": "\"An Extra Wander: For Chick...\"",
+            "overview": "New film by Pat O'Neill",
+            "popularity": 0.532,
+            "poster_path": "/1T1DXWwvW2XZTF1yOuhDS9PQ9I.jpg",
+            "release_date": "2019-01-27",
+            "title": "\"An Extra Wander: For Chick...\"",
+            "video": false,
+            "vote_average": 4.0,
+            "vote_count": 2
+        }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+}
+Request method:	POST
+Request URI:	https://api.themoviedb.org/3/account/21042953/favorite
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	account_id=21042953
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "media_type": "movie",
+    "media_id": "550",
+    "favorite": true
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=utf-8
+Content-Length: 94
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:18 GMT
+Server: openresty
+cache-control: public, max-age=0
+etag: W/"04302547257ccb7e68844cdd59055002"
+vary: accept-encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 54bffa1ff461e3a94ff195ca7a565c94.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: q0BwPCE6fd7ztFzuthKKR4yBVEABaWeMYsPhEm7hu5RYkGgzQoXfDg==
+Vary: Origin
+
+{
+    "success": true,
+    "status_code": 12,
+    "status_message": "The item/record was updated successfully."
+}
+Request method:	POST
+Request URI:	https://api.themoviedb.org/4/auth/request_token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "redirect_to": "https://www.themoviedb.org/"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:18 GMT
+Server: openresty
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Cache-Control: public, max-age=0
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 54bffa1ff461e3a94ff195ca7a565c94.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: qhqkSt5KHln7AEBWDxwN9akcnPR6HvsS5zyJhYGe4xaXZQV0F-E3nw==
+Vary: Origin
+
+{
+    "request_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE3MTYwMjEzMTgsImF1ZCI6IjdhNDA5NzJhNDk1YzlkZDg2YjBhZWE2YTYwZDg0NjQ4IiwianRpIjo2NzU1MTA5LCJzY29wZXMiOlsicGVuZGluZ19yZXF1ZXN0X3Rva2VuIl0sImV4cCI6MTcxNjAyMjIxOCwicmVkaXJlY3RfdG8iOiJodHRwczovL3d3dy50aGVtb3ZpZWRiLm9yZy8iLCJ2ZXJzaW9uIjoxfQ.wiCf_w31VLpLEHecYI86pCiLmQ0LPvTTkFU7x-aFESQ",
+    "status_code": 1,
+    "status_message": "Success.",
+    "success": true
+}
+Request method:	POST
+Request URI:	https://api.themoviedb.org/4/auth/access_token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "request_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE3MTYwMjEzMTgsImF1ZCI6IjdhNDA5NzJhNDk1YzlkZDg2YjBhZWE2YTYwZDg0NjQ4IiwianRpIjo2NzU1MTA5LCJzY29wZXMiOlsicGVuZGluZ19yZXF1ZXN0X3Rva2VuIl0sImV4cCI6MTcxNjAyMjIxOCwicmVkaXJlY3RfdG8iOiJodHRwczovL3d3dy50aGVtb3ZpZWRiLm9yZy8iLCJ2ZXJzaW9uIjoxfQ.wiCf_w31VLpLEHecYI86pCiLmQ0LPvTTkFU7x-aFESQ"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:24 GMT
+Server: openresty
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Cache-Control: public, max-age=0
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 90ecdc7529deb4cf6ecb56c4626e0ac8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: T5lVKXQyhrm5B9zD3IJFsIQfBnDN-SnBpH2L--k40etjsM-yAynIqQ==
+Vary: Origin
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE3MTYwMjEzMjQsImF1ZCI6IjdhNDA5NzJhNDk1YzlkZDg2YjBhZWE2YTYwZDg0NjQ4IiwianRpIjoiNjc1NTEwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxLCJzdWIiOiI2NWRmN2EzYTZkZWEzYTAxNjM1NzU0YWMifQ._hd19zJrSt9fvQG34hPGdJD61aWMC1UAnLhy_eDBSUQ",
+    "account_id": "65df7a3a6dea3a01635754ac",
+    "status_code": 1,
+    "status_message": "Success.",
+    "success": true
+}
+Request method:	POST
+Request URI:	https://api.themoviedb.org/3/authentication/session/convert/4
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE3MTYwMjEzMjQsImF1ZCI6IjdhNDA5NzJhNDk1YzlkZDg2YjBhZWE2YTYwZDg0NjQ4IiwianRpIjoiNjc1NTEwOSIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxLCJzdWIiOiI2NWRmN2EzYTZkZWEzYTAxNjM1NzU0YWMifQ._hd19zJrSt9fvQG34hPGdJD61aWMC1UAnLhy_eDBSUQ"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:25 GMT
+Server: openresty
+Vary: Accept-Encoding
+etag: W/"67154316b5805beee883f877b06ff9cf"
+cache-control: max-age=0, private, must-revalidate
+vary: accept-encoding
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 1947a094c5f1be25e44f62ae3fb60d94.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: w6m6X_yrGfsIDPrEnkyW_5L-NKhUmoGsosPzzqRtlodXCLq6yMlu0Q==
+Vary: Origin
+
+{
+    "success": true,
+    "session_id": "6982576545618f3f3b8a37dadaa70bd59479bcd7"
+}
+Request method:	POST
+Request URI:	https://api.themoviedb.org/3/list?session_id=6982576545618f3f3b8a37dadaa70bd59479bcd7
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=6982576545618f3f3b8a37dadaa70bd59479bcd7
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "F.F.Coppola",
+    "description": "The best of Coppolaó",
+    "language": "en"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=utf-8
+Content-Length: 78
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:25 GMT
+Server: openresty
+cache-control: public, max-age=0
+etag: W/"82b1cac72704027f9ec75d2ab05123bb"
+vary: accept-encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 9ce5a2f082cd268feb50cb923d761742.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: 62r4AoMGl_PXiPtpr0a1fC_fEr93pylZw0ejbFFRGdljypPL0gHUAA==
+Vary: Origin
+
+{
+    "success": true,
+    "status_code": 1,
+    "status_message": "Success.",
+    "list_id": 8300744
+}
+Request method:	POST
+Request URI:	https://api.themoviedb.org/3/list/8300744/add_item?6982576545618f3f3b8a37dadaa70bd59479bcd7
+Proxy:			<none>
+Request params:	<none>
+Query params:	6982576545618f3f3b8a37dadaa70bd59479bcd7
+Form params:	<none>
+Path params:	list_id=8300744
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "media_id": "550"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=utf-8
+Content-Length: 94
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:26 GMT
+Server: openresty
+cache-control: public, max-age=0
+etag: W/"04302547257ccb7e68844cdd59055002"
+vary: accept-encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 4b2484d6f9d7f95a0e92598c0f620970.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: U0hlR0b8kt2XabJWG3CKwlJkqKYrsBXKHlATALx7WAxs5GZ00K8fwA==
+Vary: Origin
+
+{
+    "success": true,
+    "status_code": 12,
+    "status_message": "The item/record was updated successfully."
+}
+Request method:	GET
+Request URI:	https://api.themoviedb.org/3/list/8300744/item_status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	list_id=8300744
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:26 GMT
+Server: openresty
+ETag: W/"e6123dc010f071edc8208cbe9fb98555"
+Cache-Control: max-age=0, private, must-revalidate
+Content-Encoding: gzip
+Vary: Accept-Encoding,accept-encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 e464e3198927238582342df50c58a9a6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: TzWr6z5rJ_g83gHjtvLu2YR8_P6siaF4KJ68GYLZDFm--IMF8odI8g==
+Vary: Origin
+
+{
+    "id": "8300744",
+    "item_present": false
+}
+Request method:	GET
+Request URI:	https://api.themoviedb.org/3/list/8300744?language=en-US&page=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	language=en-US
+				page=1
+Form params:	<none>
+Path params:	list_id=8300744
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:26 GMT
+Server: openresty
+ETag: W/"a024c760b57d845695e9c2d246b87473"
+Cache-Control: max-age=0, private, must-revalidate
+Content-Encoding: gzip
+Vary: Accept-Encoding,accept-encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 2e4b77c76f89825e36f12179cf1b33ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: 5sPMj-cqdpgmRlTt_uCcrAGYU8GZRCdSabB0HG0eza5WiBNqafVgog==
+Vary: Origin
+
+{
+    "created_by": "mk90",
+    "description": "The best of Coppolaó",
+    "favorite_count": 0,
+    "id": 8300744,
+    "iso_639_1": "en",
+    "item_count": 1,
+    "items": [
+        {
+            "backdrop_path": "/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+            "id": 550,
+            "original_title": "Fight Club",
+            "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+            "poster_path": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "title": "Fight Club",
+            "original_language": "en",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 257.598,
+            "release_date": "1999-10-15",
+            "video": false,
+            "vote_average": 8.441,
+            "vote_count": 28525
+        }
+    ],
+    "name": "F.F.Coppola",
+    "page": 1,
+    "poster_path": null,
+    "total_pages": 1,
+    "total_results": 1
+}
+Request method:	DELETE
+Request URI:	https://api.themoviedb.org/3/list/8300744?session_id=6982576545618f3f3b8a37dadaa70bd59479bcd7
+Proxy:			<none>
+Request params:	<none>
+Query params:	session_id=6982576545618f3f3b8a37dadaa70bd59479bcd7
+Form params:	<none>
+Path params:	list_id=8300744
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YTQwOTcyYTQ5NWM5ZGQ4NmIwYWVhNmE2MGQ4NDY0OCIsInN1YiI6IjY1ZGY3YTNhNmRlYTNhMDE2MzU3NTRhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.flMochC1Uto1h8p_FESOEzTjH-LARBy0CVDWuKiL81U
+				Accept=*/*
+				Content-Type=application/json;charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 18 May 2024 08:35:26 GMT
+Server: openresty
+Vary: Accept-Encoding
+cache-control: public, max-age=0
+etag: W/"0566f98871ddfd7f6ade28aaefb5167d"
+vary: accept-encoding
+Content-Encoding: gzip
+X-Cache: Miss from cloudfront
+Via: 1.1 8df14479d114ba491250765ab0716880.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: WAW51-P1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: TE8B2wlyZWuU9P9KRwC6dipVBXnt2urGiS-INV3fcAEff1Hn6wOBjg==
+Vary: Origin
+
+{
+    "success": true,
+    "status_code": 13,
+    "status_message": "The item/record was deleted successfully."
+}
